@@ -1,0 +1,51 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "oswald";
+}
+
+/* you can find the starter code in the description of the video */
+/* let's get started */
+
+.container {
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  background-color: transparent;
+  color: black;
+  border-radius: 1.8rem;
+  border: 0.18rem solid black;
+  padding: 2rem 2.5rem;
+  font-size: 5rem;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  transition: all 0.5s;
+}
+
+.btn:hover {
+  background-color: black;
+  color: white;
+}
+
+.btn:active {
+  transform: translateY(0.4rem);
+}
+
+/* DONE */
